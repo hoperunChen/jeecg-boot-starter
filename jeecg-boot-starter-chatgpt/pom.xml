@@ -10,17 +10,25 @@
     <modelVersion>4.0.0</modelVersion>
     <artifactId>jeecg-boot-starter-chatgpt</artifactId>
 
+    <properties>
+        <!-- chatGpt -->
+        <chat-gpt-java.varsion>1.1.5</chat-gpt-java.varsion>
+        <commons.version>2.6</commons.version>
+    </properties>
+
     <dependencies>
         <!-- commons-lang -->
         <dependency>
             <groupId>commons-lang</groupId>
             <artifactId>commons-lang</artifactId>
+            <version>${commons.version}</version>
         </dependency>
 
         <!-- chatgpt-java -->
         <dependency>
             <groupId>com.unfbx</groupId>
             <artifactId>chatgpt-java</artifactId>
+            <version>${chat-gpt-java.varsion}</version>
         </dependency>
     </dependencies>
 
